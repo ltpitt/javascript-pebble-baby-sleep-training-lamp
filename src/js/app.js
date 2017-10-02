@@ -115,22 +115,22 @@ audioMenu.on('select', function(e) {
         ajaxCall('dfMini','playNext,100');
         break;
     case "Volume 100%":
-        ajaxCall('dfMini','setVolume,30');
+        ajaxCall('dfMini','setVolume,28');
         break;
     case "Volume 90%":
-        ajaxCall('dfMini','setVolume,27');
+        ajaxCall('dfMini','setVolume,25');
         break;
     case "Volume 80%":
-        ajaxCall('dfMini','setVolume,24');
+        ajaxCall('dfMini','setVolume,22');
         break;
     case "Volume 70%":
-        ajaxCall('dfMini','setVolume,21');
+        ajaxCall('dfMini','setVolume,19');
         break;
     case "Volume 60%":
-        ajaxCall('dfMini','setVolume,18');
+        ajaxCall('dfMini','setVolume,16');
         break;
     case "Volume 50%":
-        ajaxCall('dfMini','setVolume,15');
+        ajaxCall('dfMini','setVolume,13');
         break;
   }   
 });
