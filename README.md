@@ -3,6 +3,10 @@ Little Cloud Pebble App - Baby Sleep Training Lamp
 
 An App for Pebble smartwatch to control the DIY [Little Cloud - Baby Sleep Training Lamp](https://github.com/ltpitt/c-photon-baby-sleep-training-lamp)
 
+A few pics
+--------------
+![Alt text](/resources/images/little_cloud_pebble_app_icon.jpg?raw=true "Little Cloud - Pebble App Icon")
+
 Pre-requisites
 --------------
 
