@@ -7,6 +7,10 @@
 * Davide Nastri, 9/18/2017
 */
 
+// Customize those two variables with your Particle Photon data to use the app
+var particleToken = 'YOUR_PARTICLE_TOKEN';
+var particleDeviceId = 'YOUR_PARTICLE_DEVICE_ID';
+
 var UI = require('ui');
 var ajax = require('ajax');
 var vibe = require('ui/vibe');
@@ -169,11 +173,10 @@ function showMessage(title, subtitle, body) {
 
 function ajaxCall(command, parameters) {
   vibe.vibrate('short');
-  var token = 'YOUR_PARTICLE_TOKEN';
-  var mydata = {access_token: token, args: parameters};
+  var mydata = {access_token: particleToken, args: parameters};
 
   ajax({
-          url: 'https://api.particle.io/v1/devices/YOUR_PARTICLE_DEVICE_ID/' + command,
+          url: 'https://api.particle.io/v1/devices/' + particleDeviceId + '/' + command,
           method: 'post',
           data: mydata  
       },

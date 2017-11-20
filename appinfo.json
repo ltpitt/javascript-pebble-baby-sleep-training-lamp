@@ -29,14 +29,14 @@
                 "type": "font"
             },
             {
-                "file": "images/app_icon.png",
-                "menuIcon": true,
-                "name": "IMAGES_APP_ICON_PNG",
+                "file": "images/splash.png",
+                "name": "IMAGES_SPLASH_PNG",
                 "type": "png"
             },
             {
-                "file": "images/splash.png",
-                "name": "IMAGES_SPLASH_PNG",
+                "file": "images/app_icon.png",
+                "menuIcon": true,
+                "name": "IMAGES_APP_ICON_PNG",
                 "type": "png"
             }
         ]
