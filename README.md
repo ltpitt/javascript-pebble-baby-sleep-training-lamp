@@ -5,9 +5,8 @@ An App for Pebble smartwatch to control the DIY [Little Cloud - Baby Sleep Train
 
 App images
 --------------
-<img src="/resources/images/little_cloud_pebble_app_icon.png" width="25%">
-<img src="/resources/images/little_cloud_pebble_app_splashscreen.png" width="25%">
-<img src="/resources/images/little_cloud_pebble_app_main_menu.png" width="25%">
+| <img src="/resources/images/little_cloud_pebble_app_icon.png" width="25%">  | <img src="/resources/images/little_cloud_pebble_app_splashscreen.png" width="25%"> | <img src="/resources/images/little_cloud_pebble_app_main_menu.png" width="25%"> |
+
 
 Pre-requisites
 --------------
