@@ -7,7 +7,11 @@ App images
 --------------
 <p align="center">
 <img src="/resources/images/little_cloud_pebble_app_icon.png" width="25%"><img src="/resources/images/little_cloud_pebble_app_splashscreen.png" width="25%"><img src="/resources/images/little_cloud_pebble_app_main_menu.png" width="25%">
-</p
+</p>
+
+<p align="center">
+<img src="/resources/images/little_cloud_pebble_app_music_menu.png" width="25%"><img src="/resources/images/little_cloud_pebble_app_light_menu.png" width="25%">
+</p>
 
 Pre-requisites
 --------------
