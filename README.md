@@ -16,6 +16,7 @@ App images
 Pre-requisites
 --------------
 
+- A small baby :D
 - A Pebble smartwatch (you should totally get one! Pebble went out of business :( and they're crazy cheap now!)
 - The lovely [Little Cloud - Baby Sleep Training Lamp](https://github.com/ltpitt/c-photon-baby-sleep-training-lamp)
 
@@ -30,4 +31,3 @@ Getting Started
 Contribution guidelines
 ---------------
 * If you have any idea or suggestion contact directly the Repo Owner
-,
