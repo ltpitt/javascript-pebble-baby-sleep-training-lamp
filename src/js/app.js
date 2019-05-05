@@ -86,7 +86,19 @@ var audioMenu = new UI.Menu({
     }, {
       title: 'Volume 50%',
       subtitle: 'Change volume to 50%'
-    }]
+    }, {
+      title: 'Volume 40%',
+      subtitle: 'Change volume to 40%'
+    }, {
+      title: 'Volume 30%',
+      subtitle: 'Change volume to 30%'
+    }, {
+      title: 'Volume 20%',
+      subtitle: 'Change volume to 20%'
+    }, {
+      title: 'Volume 10%',
+      subtitle: 'Change volume to 10%'
+  }]
   }]
 });
 
@@ -135,6 +147,18 @@ audioMenu.on('select', function(e) {
         break;
     case "Volume 50%":
         ajaxCall('dfMini','setVolume,13');
+        break;
+    case "Volume 40%":
+        ajaxCall('dfMini','setVolume,10');
+        break;
+    case "Volume 30%":
+        ajaxCall('dfMini','setVolume,7');
+        break;
+    case "Volume 20%":
+        ajaxCall('dfMini','setVolume,4');
+        break;
+    case "Volume 10%":
+        ajaxCall('dfMini','setVolume,1');
         break;
   }   
 });
